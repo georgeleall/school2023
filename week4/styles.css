@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Oswald:wght@200&family=Roboto:wght@300&display=swap');
+
+
+body {
+    margin: auto;
+    max-width: 400px;
+    background-color: #fefefe;
+    color:black;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+a{
+    /*remove the underline*/
+    text-decoration: none;
+
+}
+a:link {
+    color: red;
+
+}
+
+a:visited{
+    color:violet;
+    font-style:oblique;
+}
+
+a:hover{
+    color: dodgerblue;
+    font-size: larger;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+code{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#roar{
+    font-size: 10em;
+    text-align: center;
+}

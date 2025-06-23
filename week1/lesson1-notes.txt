@@ -1,0 +1,115 @@
+George Leal
+Lesson 1 Notes
+09/05/23
+
+==============================================
+Lesson 1: Understanding How the Web Works
+==============================================
+
+Summary: Lesson 1 goes over the absolute basic tools of creating a web page. We can see in the example 1.1 that all of the 
+basic tags are utilized. These basic tags include, the doctype, the head, the body, the title, and an h1. In this example,
+they create a simple web page that states, "Hello World!"
+
+There are other things that are just as important as these basic tools, an index file is the default page when people are 
+navigating the directory of your website. An index is the home page of a website. It is where the user will land when navigating
+the website.
+
+----------------------------------------------
+
+-What You'll Learn in this Lesson-
+
+*A very brief history of the World Wide Web
+
+*What is meant by the term page and why this term doesn't always reflect all the content involved
+
+*How content gets from your personal computer to someone else's web browser
+
+*How to select a web hosting provider
+
+*How different web browsers and device types can affect your content
+
+*How to transfer files to your web server by using FTP
+
+*Where files should be placed on a web server
+
+*How to use other publishing methods, such as blogs
+
+*Tips for testing the appearance and functionality of web content
+
+-HTML Tags Every Webpage Must Have-
+<!doctype html>
+<html lang="en>
+<head> </head>
+<h1> </h1>
+<p> </p>
+</html>
+
+-20 HTML tags covered-
+<img>
+<!doctype html> </html>
+<html lang="en> 
+<head> </head>
+<meta charset="utf-8">
+<title> </title>
+<body> </body>
+<h1> </h1>
+<a> </a>
+<footer> </footer>
+<p> </p>
+<main> </main>
+==============================================
+
+==============================================
+Lesson 2: Structuting an HTML Document
+==============================================
+
+Summary: In this lesson we learned the general basics of HTML and discuss the preparations needed to be made in order to be a
+web page developer. We discuss many different tags and their purposes. They also show what each tag looks like in examples. 
+
+Some of the tags we talk about are head, p, hr, and body. These were used specifically in the example 2.2. These created a 3
+paragraph page with a seperator from the title and the two paragraphs.
+
+----------------------------------------------
+
+-What You'll Learn in this Lesson-
+
+*How to create a simple web page in HTML
+
+*How to include all the HTML tags that every web page must have
+
+*How to organize a page with paragraphs and line breaks
+
+*How to organize your content with headings
+
+*How to use the semantic elements of HTML5
+
+*How to use semantic tags to indicate header and footer content
+
+*How to use semantic tags to indicate navigational and secondary content
+
+*How to use semantic tags to better structure body content
+
+-HTML Tags Every Webpage Must Have-
+
+-20 HTML tags covered-
+<header>
+<section>
+<article>
+<nav>
+<aside>
+<footer>
+<! doctype>
+<title>
+<body>
+<html>
+<p>
+<meta charset = "utf-8">
+<br>
+<hr>
+<h1>
+<b>
+<i>
+<div>
+<section>
+<aside>
+==============================================

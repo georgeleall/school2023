@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <!-- 
+George Leal
+Assignment: Happy or Sad?
+September 13th, 2023
+-->
+<meta charset = "utf-8">
+    <title>Happy or Sad?</title>
+</head>
+
+<style>
+    body{
+        max-width: 600px;
+        margin: auto;
+    }
+
+</style>
+
+
+<body>
+   <header>
+
+    <h1>How are you feeling?</h1>
+    
+    </header>
+
+    <main>
+
+        <button onclick="document.getElementById('happySad').src='/week3/photos/happydog.png'"> 
+            I'm feeling happy! 😃</button>
+
+<!-- line 35 is just a space -->
+            &nbsp;
+
+        <button onclick="document.getElementById('happySad').src='/week3/photos/saddog.jpeg'">  
+            I'm feeling sad 😢</button>
+
+        <p>
+
+            <img id="happySad" src="/week3/photos/neutraldog.jpeg" width="400">
+        </p>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

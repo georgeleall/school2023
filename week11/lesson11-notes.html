@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <!-- 
+George Leal
+Assignment: Lesson 11 Notes
+November 14th, 2023
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel = "stylesheet" href="styles.css">
+<script src ="script.js" defer></script>
+<style>
+    body {
+        margin: auto;
+        max-width: 400px;
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: white;
+        color: black;
+    }
+
+    h1 {
+        color: black;
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+    }
+
+    h3 {
+        color: black;
+        font-size: 12px;
+    }
+
+    .hide{
+        list-style-type: none;
+    }
+
+    table, th, td {
+        border: 1px solid;
+    }
+    @media screen and (max-width:749px){
+h1 {
+font-size: 2em;
+line-height: 0.9;
+margin-bottom: 20px;
+}
+h2 {
+font-size: 1.2em;
+line-height: 1;
+}
+}
+</style>
+
+    <title>Lesson 11 Notes</title>
+</head>
+
+    <header class = "w3-container">
+        <h1 class = "w3-container w3-blue-gray">Lesson 11 Notes</h1>
+    </header>
+
+<body class ="w3-container">
+        <main>
+            <h2 class = "w3-container w3-light-blue">Lesson 23: Controlling Flow with Conditions and Loops</h2>
+    
+            <h3>Summary: In this lesson, we discuss conditional statements and loops. We have seen
+                if statements, while and do while loops, and for loops in class. The conditional statement
+                we havent seen before was switch.
+            </h3>
+    
+            <h3>Switch statements allow for you to test multiple conditions on one element at once. You can do this 
+                by utilizing Switch and however many cases(conditions) you would like to check at once. This 
+                can be useful when you have many conditions to check and can use this as an altertnate to 
+                many if statements.
+            </h3>
+    
+            <p>What You'll Learn: </p>
+            <ul>
+                <li>How to test conditions with the if statement</li>
+                <li>How to use comparison operators to compare values</li>
+                <li>How to use logical operators to combine conditions</li>
+                <li>How to use alternative conditions with else</li>
+                <li>How to create expressions with conditional operators</li>
+                <li>How to test for multiple conditions</li>
+                <li>How to perform repeated statements with the for loop</li>
+                <li>How to use while and do...while loops</li>
+                <li>How to create infinite loops (and why you shouldn't)</li>
+                <li>How to escape from loops and continue loops</li>
+                <li>How to loop through an array's properties</li>
+            </ul>
+            <h2 class = "w3-container w3-light-blue">Lesson 24: Responding to Events and Using Windows</h2>
+    
+            <h3>Summary: In this lesson, we talked about event handlers, what they are, what they do, and how they work.
+                We talked about the different types of event handlers and the way they work. 
+            </h3>
+    
+            <h3>In the provided example that I include later on in the notes and the one they included in the book, 
+                the event handler is "onmouseover". Whenever I would run my mouse over the link, I would get a notification
+                saying that I hovered my mouse over the link.
+            </h3>
+    
+            <p>What You'll Learn: </p>
+            <ul>
+                <li>How event handlers work</li>
+                <li>How event handlers relate to objects</li>
+                <li>How to create an event handler</li>
+                <li>How to detect mouse and keyboard actions</li>
+                <li>How to use onclick to change the appearance of div</li>
+                <li>How to access and use the window object hierarchy with JavaScript</li>
+                <li>How to delay a script's actions by using timeouts</li>
+                <li>How to display alerts, confirmations, and prompts</li>
+            </ul>
+            <h2 class = "w3-container w3-light-blue">Bonus Items: </h2>
+
+            <table class = "w3-table w3-striped w3-centered w3-sand">
+                <tr>
+                    <th>Items</th>
+                    <th>Description</th>
+                </tr>
+        
+                <tr>
+                    <td>Conditional Statment</td>
+                    <td>A conditional statement has a condition and an action, if a condition is met or not met
+                        an action will occur.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Conditional Operators</td>
+                    <td>
+                        <ul>
+                            <li>== is equal to</li>
+                            <li>!= is not equal to</li>
+                            <li>< is less than</li>
+                            <li>> is greater than</li>
+                            <li> >= is greater than or equal to</li>
+                            <li> <= is less than or equal to</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Multiple Conditional Statement Example</td>
+                    <td>if (hour_of_day < 10)  {
+                    <br>
+                        document.write("Good morning."); 
+                   <br>
+                   }  else if ((hour_of_day >= 14) && (hour_of_day <= 17))  {
+                   <br>
+                        document.write("Good afternoon.");
+                   <br>
+                   }  else if (hour_of_day >= 17)  { 
+                   <br>
+                        document.write("Good evening.");
+                   <br>
+                   }  else {
+                   <br>
+                        document.write("Good day.");
+                   <br>
+                   } </td>
+                </tr>
+
+                <tr>
+                    <td>Use of looping</td>
+                    <td>An example of looping could be a for loop where it goes through an array
+                        and lists each of the values. In this example we will use colors and 
+                        as it goes down the array, it will say each of the colors using i++.
+                </tr>
+
+                <tr>
+                    <td>Event Handler</td>
+                    <td>A script that is used to detect an event and acts off that event is an event
+                        handler.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Example of Click Handler</td>
+                    <td> a href="http://www.google.com/"
+
+                        onmouseover="alert('You moved over the link.');">
+                     
+                        This is a link."/a
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>How can a page listen to keystrokes</td>
+                    <td>
+                        script
+                        document.addEventListener('keydown', function(event) { <br>
+                          // The 'event' parameter contains information about the key press <br>
+                          // You can access the pressed key using event.key
+                          <br>
+                          console.log('Key pressed:', event.key); <br>
+                        
+                          // You can perform actions based on the pressed key
+                          <br>
+                          if (event.key === 'Enter') {
+                            <br>
+                            alert('Enter key pressed!');
+                            <br>
+                          }
+                        });
+                      /script
+                      </td>
+                </tr>
+
+                <tr>
+                    <td>Properties of Windows Objects</td>
+                    <td>
+                    <li><strong>window.closed</strong> - Indicates whether the window has been closed. 
+                        This makes sense only when you're working with multiple windows because the 
+                        current window contains the script and cannot be closed without ending the script.</li>
+                    <li><strong>window.name</strong> - Specifies the name for a window opened by a script.</li>
+                    <li><strong>window.opener</strong> - In a new window opened by a script, provides a reference
+                        to the window containing the script that opened it.</li>
+                    <li><strong>window.outerHeight & window.outerWidth</strong>Specify the height and width, 
+                        respectively, of the outside of a browser window.</li>
+                    <li><strong>window.screen</strong> - Provides a child object that stores information about 
+                        the screen the window is in-its resolution, color depth, and so on.</li>
+                    <li><strong>window.self</strong> - Acts as a synonym for the current window object.</li>
+                </td>
+                </tr>
+            </table>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

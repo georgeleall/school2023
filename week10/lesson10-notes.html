@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 
+    George Leal
+    Assignment: Lesson 10 Notes
+    November 6th, 2023
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel = "stylesheet" href="styles.css">
+    <title>Lesson 10 Notes</title>
+    <style>
+        body {
+            margin: auto;
+            max-width: 400px;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        h1 {
+            color: black;
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: black;
+        }
+
+        h3 {
+            color: black;
+            font-size: 12px;
+        }
+
+        .hide{
+            list-style-type: none;
+        }
+
+        table, th, td {
+            border: 1px solid;
+        }
+        @media screen and (max-width:749px){
+  h1 {
+    font-size: 2em;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1.2em;
+    line-height: 1;
+  }
+}
+    </style>
+</head>
+
+<body class = "w3-containter w3-white">
+    <main>
+        <h1 class = "w3-container w3-blue-gray">Lesson 10 Notes</h1>
+        <h2 class = "w3-container w3-black">Lesson 22: Using JavaScript Variables, Strings, and Array</h2>
+
+        <h3 class = "w3-container">Summary: In this lesson we discuss the different ways we can create different
+            variables, how to name them, and what their uses are. We also discussed global and local variables. 
+            Global variables can be used throughout the entire script and local variables can pretty much only be 
+            used where they are created.
+        </h3>
+
+        <h3 class = "w3-container">We also discussed the different operators that are used and their uses. 
+            We learned about using object methods and what they were. In the example, we used math and date.
+            Where the math object was able to grab a random number and the date object is used to grab the date.
+        </h3>
+
+        <p class = "w3-container w3-blue">What You'll Learn: </p>
+        <ul class = "w3-ul w3-border">
+            <li>How to name, declare, and assign variables</li>
+            <li>How to choose whether to use local or global variables</li>
+            <li>How to convert between different data types</li>
+            <li>How to create and use String objects</li>
+            <li>How to create and use arrays of numbers and strings</li>
+            <li>How to define, call, and return values from functions</li>
+            <li>How to use object properties and values</li>
+            <li>How to define and use object methods</li>
+            <li>How to use the Math object's methods</li>
+            <li>How to use new and this keywords to work with objects</li>
+            <li>How to use the Date object to work with dates</li>
+        </ul>
+
+        <p class = "w3-container w3-blue">Bonus Items: </p>
+        <ul class = "w3-ul w3-border">
+            <li class = "w3-container w3-blue">Choosing Variable Names and the rules used</li>
+            <ul class = "hide w3-container w3-border">
+                <li>Variable names can include letters of the alphabet, both upper- and lowercase. They can also include the digits 0-9 and the underscore (_) character.</li>
+            </ul>
+            <li class = "w3-container w3-blue">Define global and local variables</li>
+            <ul class = "w3-container w3-border">
+                <li>Global variables have the entire script (and other scripts in the same HTML document) as their scope. They can be used anywhere, even within functions.</li>
+                <li>Local variables have a single function as their scope. They can be used only within the function they are created in.</li>
+            </ul>
+            <li class = "w3-container w3-blue">List ways to assign value to variables</li>
+            <ul class = "w3-container w3-border">
+                <li>var bottles = 3;</li>
+                <li>bottles = 3;</li>
+            </ul>
+            <li class = "w3-container w3-blue">List ways to increment and decrement variables</li>
+            <ul class = "w3-container w3-border">
+                <li>bottles = bottles + 1;</li>
+                <li>bottles = bottles - 1;</li>
+                <li>bottles += 1;</li>
+                <li>bottles -= 1;</li>
+            </ul>
+            <li class = "w3-container w3-blue">Create a table of the JavaScript Operators, their description, and an example of each one</li>
+            <ul class = "hide w3-container w3-border">
+                <li>   
+                    <table>
+                    <tr>
+                        <th>Operator</th>
+                        <th>Description</th>
+                    </tr>
+            
+                    <tr>
+                        <td>+</td>
+                        <td>Concatenate (combine) strings</td>
+                    </tr>
+
+                    <tr>
+                        <td>+</td>
+                        <td>Add</td>
+                    </tr>
+
+                    <tr>
+                        <td>-</td>
+                        <td>Subtract</td>
+                    </tr>
+
+                    <tr>
+                        <td>*</td>
+                        <td>Multiply</td>
+                    </tr>
+
+                    <tr>
+                        <td>/</td>
+                        <td>Divide</td>
+                    </tr>
+
+                    <tr>
+                        <td>%</td>
+                        <td>Modulo (remainder)</td>
+                    </tr>
+
+                    <tr>
+                        <td>++</td>
+                        <td>Increment</td>
+                    </tr>
+
+                    <tr>
+                        <td>--</td>
+                        <td>Decrement</td>
+                    </tr>
+                </table>
+
+            </li>
+            </ul>
+            <li class = "w3-container w3-blue">List the JavaScript Data Types</li>
+            <ul class = "w3-container w3-border">
+                <li>Number</li>
+                <li>Boolean</li>
+                <li>String</li>
+                <li>Null</li>
+            </ul>
+            <li class = "w3-container w3-blue">Define a String Object</li>
+            <ul class = "hide w3-container w3-border">
+                <li>String objects are what the string is stored as.</li>
+            </ul>
+            <li class = "w3-container w3-blue">Define an Array</li>
+            <ul class = "hide w3-container w3-border">
+                <li>An array is a numbered group of data items that could be treated as a single unit. </li>
+            </ul>
+            <li class = "w3-container w3-blue">Define a Function</li>
+            <ul class = "hide w3-container w3-border">
+                <li>A function is a group of JavaScript statements that can be treated as a single unit.</li>
+            </ul>
+            <li class = "w3-container w3-blue">Describe how to return a value from a function</li>
+            <ul class = "hide w3-container w3-border">
+                <li>You can create a var that will equate to an equation and create a return statement.</li>
+            </ul>
+            <li class = "w3-container w3-blue">Define an Object</li>
+            <ul class = "hide w3-container w3-border">
+                <li>Objects are like variables but can hold multiple values at once.</li>
+            </ul>
+            <li class = "w3-container w3-blue">Define the Math Object</li>
+            <ul class = "hide w3-container w3-border">
+                <li>The Math object is a built-in JavaScript object that includes math constants and functions.</li>
+            </ul>
+            <li class = "w3-container w3-blue">List methods to round and truncate</li>
+            <ul class = "w3-container w3-border">
+                <li>Math.ceil</li>
+                <li>Math.floor</li>
+                <li>Math.round</li>
+            </ul>
+            <li class = "w3-container w3-blue">Provide a code example to generate a random number</li>
+            <ul class = "hide w3-container w3-border">
+                <li>
+                    function rand(num) {
+                <br>
+
+                    return Math.floor(Math.random() * num) + 1;
+                
+                <br>
+                 }
+                </li>
+            </ul>
+            <li class = "w3-container w3-blue">Define the Date object</li>
+            <ul class = "hide w3-container w3-border">
+                <li>The Date object is a built-in JavaScript object that enables you to work more easily with dates and times. 
+                You can create a Date object anytime you need to store a date and use the Date object's methods to work with 
+                the date.</li>
+            </ul>
+
+        </ul>
+
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>

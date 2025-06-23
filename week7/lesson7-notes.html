@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 
+    George Leal
+    Assignment: Lesson 7 Notes
+    October 17th, 2023
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Web Design Notes</title>
+    <style>
+        body {
+            margin:0 auto;
+            max-width: 85%;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5em;
+            color: #212427;
+            background-color: #f3f3f3;
+            text-align: center;
+        }
+
+        h1 {
+            color: black;
+            font-size: 28px;
+            font-weight: 400;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: black;
+            font-weight: 400;
+        }
+
+        h3 {
+            color: black;
+            font-size: 12px;
+        }
+        ul{
+            list-style-position: inside;
+            padding: 0;
+        }
+
+        @media only screen and (min-width: 750px){
+        h1{font-size:1.5em;}
+        h2{font-size: 1.25em;}
+        }
+
+        @media only screen and (max-width: 749px){
+        h1{font-size: 1.25em;}
+        h2{font-size: 1.1em;}  
+        body {line-height: 1.2em;}   
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Responsive Web Design</h1>
+        <h2>Lesson 16: Understanding the Importance of Responsive Web Design</h2>
+
+        <h3>Summary: In this lesson, we discussed the important of Responsive Web Design (RWD).
+            It is very important because you can code it once using CSS media queries and all the changes
+            will be applied to whatever device you are using.
+        </h3>
+
+        <h3>Another reason why it is important is because you can code it once and be done with the formatting.
+            This will save plenty of time and help make it cleaner so you won't have to create scripts or code for it.
+        </h3>
+
+        <p>What You'll Learn: </p>
+        <ul>
+            <li>What is responsive web design (RWD)</li>
+            <li>Why we need RWD</li>
+            <li>What is progressive enhancement</li>
+            <li>How to write HTML that's RWD ready</li>
+        </ul>
+        <h2>Lesson 17: Designing for Mobile Devices</h2>
+
+        <h3>Summary: Many people struggle to change when designing for mobile devices since they are building the webpage
+            from their computer and not a mobile device. When testing these websites, it's encouraged to try the webpage
+            on different sites and different devices.
+        </h3>
+
+        <h3>Creating a web page that scales with a user's device will create an enjoyable experience for not just the 
+            user but for the designer since it will minimize the amounts of complaints. If the web design sucks
+            it will reduce the traffic for the web page.
+        </h3>
+
+        <p>What You'll Learn: </p>
+        <ul>
+            <li>How mobile design differs from standard web design</li>
+            <li>What the Mobile First design philosophy is</li>
+            <li>How Mobile First is important to RWD</li>
+            <li>How to build responsive tables and images for mobile devices</li>
+            <li>How to use CSS columns to create responsive designs without media queries</li>
+        </ul>
+        <h2>Lesson 18: Using Media Queries and Breakpoints</h2>
+
+        <h3>Summary: Media queries allow for the scaling of devices easier, it will be able to detect
+            what kind of device is in use and determine its resolution. This helps the designer because it
+            will adjust the webpage as intended for the resolution that is set in the query type that it falls in.
+        </h3>
+
+        <h3>If a media query is within a certain range of pixels, it will adjust to whichever it falls into.
+            It will scale the document to the settings that the designer set for it, whether it's a larger device or 
+            a smaller device, there is a preset for it and the content in the page will adjust itself.
+        </h3>
+        
+        <p>What You'll Learn: </p>
+        <ul>
+            <li>How to write a CSS media query</li>
+            <li>How to use different media types</li>
+            <li>How to create media query expressions</li>
+            <li>Understanding logical keywords in your queries</li>
+            <li>What CSS breakpoints are</li>
+            <li>How to define breakpoints</li>
+            <li>How to find the best breakpoints for your website</li>
+        </ul>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

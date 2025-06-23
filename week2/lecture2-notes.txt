@@ -1,0 +1,25 @@
+if you do ! you can get vs code to format an html file for you using emmet
+
+to create a list in html, you would use 
+-unordered list <ul> <li> li is used to list item </li> </ul>
+
+line break <br>
+
+Cascading Style Sheets (CSS)
+
+html➡️document/content
+CSS➡️rules for displaying content
+    1.Stylesheet
+    2.Style Tag
+    3.Inline Styles
+js➡️interactivity
+
+margin auto at all times
+
+targeted
+--------
+⚫️body
+⚫️h1
+⚫️p
+⚫️class name - apply to many
+⚫️id - unique

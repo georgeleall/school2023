@@ -1,0 +1,12 @@
+body{
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: white;
+    color: black;
+    
+}
+
+.darkmode {
+    background-color: #434343;
+    color: #fefefe;
+}

@@ -1,0 +1,29 @@
+Responsive Web Design
+    -fluid layout(flexbox, grid, %)
+    -load a different website :(
+    -media queries -sizes 
+        -mobile/tablet/desktop (print, braille, etc)   
+Images
+    -style %
+    -picture
+        -different img
+
+Many errors with this next line due to the crossover of the tags.
+<strong><em> Hello,</strong> world</em>
+
+-semantic tags-
+<article> ... </article>
+<header> ... </header>
+<footer> ... </footer>
+<aside> ... </aside>
+<nav> ... </nav>
+
+Progressive enhancement
+
+
+tables
+table
+    -tr (table row)
+        -th (table header)
+    -tr
+        -td

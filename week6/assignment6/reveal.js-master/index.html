@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 1
+				<h2>George Leal</h2>
+				<p>CISW 17</p>
+				</section>
+				<section data-background="#c04ff0">Slide 2
+				<p>data-background="#c04ff0"</p>
+				</section>
+				<section data-transition="zoom-in fade-out">Slide 3
+				<h3>zoom-in and fade-out</h3>
+				</section>
+				<section>Slide 4
+				<h2>CSS Transformations</h2>
+				<p>The transform CSS property lets you rotate, scale, skew, or translate an element.
+				It modifies the coordinate space of the CSS visual formatting model.</p>
+				</section>
+				<section>Slide 5
+					<h3>Transitions include...</h3>
+					<p>
+					<ul>rotate</ul>
+					<ul>move</ul>
+					<ul>scale</ul>
+					<ul>skew</ul>
+					<ul>and more...</ul>
+					</p>
+				</section>
+				<section>
+					<h2>Thank you!</h2>
+				</section>
+				<section data-background="https://i0.wp.com/hallozween.com.au/wp-content/uploads/2021/06/7-copy.png"></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

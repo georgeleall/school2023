@@ -1,0 +1,28 @@
+body {
+    background-color: pink;
+    font-size: medium;
+    max-width: 600px;
+    margin: auto;
+    color: rebeccapurple;
+}
+
+h1{
+    font-size: 3em;
+    font-family:sans-serif;
+    color: azure;
+
+
+}
+
+p{
+    line-height: 1.5;
+}
+
+.italics {
+    font-style: italic;
+    font-weight: 100;
+}
+
+#first {
+    font-weight: 900;
+}

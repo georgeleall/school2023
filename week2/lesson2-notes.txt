@@ -1,0 +1,43 @@
+George Leal
+Lesson 2 Notes
+09/12/23
+
+==============================================
+Lesson 3: Understanding Cascading Style Sheets
+==============================================
+
+Summary: In this lesson we learned how to create a css sheet. We learned how to utilize different tools to make our web pages
+look better. They also taught us how to include different files that change the appearance of our web pages including photos and
+gifs.
+
+We also learned how to style the web page in different ways such as changing the font, the text color and the way the text sits on
+the page. There are many different styles, colors, and positioning that is offered for a CSS file. CSS files are what make your 
+web pages unique.
+
+----------------------------------------------
+
+-What You'll Learn in this Lesson-
+
+*How to create a basic style Sheet
+
+*How to use style classes
+
+*How to use style IDs
+
+*How to construct internal style sheets and inline styles
+
+-Define the following-
+
+-Layout Properties
+Properties that affect the positioning of elements on a web page, such as margins, padding, and alignment.
+
+-Formatting Properties
+Properties that affect the visual display of elements in a website, such as the font type, size, and color.
+
+-CSS Class
+An attribute used to define a group of HTML elements in order to apply unique styling and formatting to those elements with CSS
+
+-CSS ID
+A custom set of formatting specifications that can be applied to only one element in a web page.
+
+==============================================

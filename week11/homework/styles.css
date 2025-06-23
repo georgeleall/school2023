@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: white;
+    color: black;
+}
+
+.showHelp #help {
+    display: block;
+}
+
+.showHelp #nojs {
+    display: none;
+}
+
+#help {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#nojs {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}

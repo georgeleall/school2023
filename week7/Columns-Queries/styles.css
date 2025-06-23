@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body{
+    font-size: 18px;
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: ghostwhite;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    background-color: lightblue;
+}
+
+article, p{
+    font-family: monospace;
+    margin-top: 0;
+    line-height: 1.5em;
+    padding: 0 20px;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* Create a style just for the min-width: 750px; */
+
+@media screen and (min-width: 750px) {
+    h1{
+        font-size: 3rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    article{
+        column-width: 300px;
+        padding: 0 25px;
+    }
+    
+}
+
+/* Create a style for 749 and smaller */
+
+@media screen and (max-width: 749px) {
+    h1{
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: lightskyblue;
+    }
+
+    article{
+        column-width: 400px;
+    }
+    
+}

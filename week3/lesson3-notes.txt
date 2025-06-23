@@ -1,0 +1,78 @@
+George Leal
+Lesson 3 Notes
+09/18/23
+
+==============================================
+Lesson 4: Understanding JavaScript
+==============================================
+
+Summary: In lesson 4, we learned how to include JavaScript in our HTML projects.
+They showed us three different ways to include JavaScript such as the onclick, document.write(), and
+inlcuding an external JavaScript file.
+
+They also showed us quick examples of HTML projects that include JavaScript. They showed and
+talked about potential errors we can expreince while creating these projects. The biggest one
+being missing syntax.
+
+----------------------------------------------
+
+-What You'll Learn in this Lesson-
+
+*What web scripting is and what it’s good for*
+
+*How scripting and programming are different (and similar)*
+
+*What JavaScript is and where it came from*
+
+*How to include JavaScript commands in a web page*
+
+*What JavaScript can do for your web pages*
+
+*Beginning and ending scripts*
+
+*Formatting JavaScript statements*
+
+*How a script can display a result*
+
+*Including a script within a web document*
+
+*Testing a script in a browser*
+
+*Modifying a script*
+
+*Dealing with errors in scripts*
+
+*Moving scripts into separate files*
+
+-How to include JavaScript-
+
+You can include JavaScript by using a script tag, depending on what statement you would use,
+you would get different results. You can use onclick, document.write(), you can also include
+external scipts by using <scriptsrc="filename.js"></script>.
+
+==============================================
+
+==============================================
+Lesson 5: Validating and Debugging Your Code
+==============================================
+
+Summary: In this lesson, we discussed proper ways to debug and identify problems in our code.
+They talked about what are common issues and showed us examples of what some code might look like when
+we create our own.
+
+We were also introduced to a Debugging tool called W3C Validator. This will help the person
+creating the code, identify bug much quicker and will help them identify problems quicker. The
+bug identifier has a nice and easy format to read, it also shows you why you are getting that error.
+
+----------------------------------------------
+
+
+-What You'll Learn in this Lesson-
+
+*How to validate your HTML and CSS*
+
+*How to use Developer Tools to debug HTML and CSS*
+
+*How to use the JavaScript Console to debug JavaScript*
+
+==============================================
